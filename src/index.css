@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:20px;
+}
+.step-section, .count-section,.result-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+.step-section button,.count-section button{
+cursor: pointer;
+padding: 5px 10px; 
+}
+.step-section button, .step-section span {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.count-section button, .count-section span {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.result-section p{
+  font-size: 1.5rem;
+}
